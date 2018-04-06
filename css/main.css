@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+canvas {
+	display: block;
+	margin: 1rem auto;
+	background: lightgray;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+
+	canvas {
+		margin-top: 0;
+	}
+
+}
